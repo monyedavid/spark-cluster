@@ -118,11 +118,8 @@ Now let`s make a **wild spark submit** to validate the distributed nature of our
 
 ## Create a Scala spark app
 
-The first thing you need to do is to make a spark application. Our spark-submit image is designed to run scala code (
-soon will ship pyspark support guess I was just lazy to do so..).
-
-In my case I am using an app called  [crimes-app](https://). You can make or use your own scala app, I 've just used
-this one because I had it at hand.
+The first thing you need to do is to make a spark application. Our spark-submit image is designed to run scala code
+You can make or use your own scala app.
 
 ## Ship your jar & dependencies on the Workers and Master
 
